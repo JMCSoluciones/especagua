@@ -33,3 +33,6 @@ secrets.json
 
 # Ignore macOS specific files
 .DS_Store
+
+#Ignore Prepros configuration file
+prepros.config 
