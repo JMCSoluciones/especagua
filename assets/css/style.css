@@ -1,0 +1,187 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Inter', sans-serif;
+}
+.hidden {
+  display: none !important;
+}
+.footer {
+  color: #ffffff;
+}
+.footer__header {
+  background-color: #0581f5;
+  padding: 5px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+.footer__header__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+}
+.footer__header__item img {
+  width: 30px;
+}
+.footer__header__item__text {
+  font-size: 1.4rem;
+}
+.footer__header__item__text p {
+  margin: 0;
+}
+.footer__header__item__text-link {
+  font-size: 1.2rem;
+}
+.footer__header__item__text a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.footer__body {
+  background-color: #002e6c;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.footer__body__enlaces {
+  font-size: 1.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px;
+}
+.footer__body__enlaces ul {
+  text-align: center;
+}
+.footer__body__enlaces ul li {
+  list-style: none;
+}
+.footer__body__enlaces ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.footer__body__schedule {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer__body__schedule-title {
+  font-size: 1.8rem;
+}
+.footer__body__schedule-hours-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 20px;
+  font-size: 1.4rem;
+}
+.footer__body__schedule-hours-item p {
+  margin: 0;
+}
+.footer__body__redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer__body__redes-title {
+  font-size: 1.8rem;
+  margin: 0;
+}
+.footer__body__redes a img {
+  width: 62px;
+}
+.footer__footer {
+  background-color: #0581f5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 35px;
+  gap: 10px;
+}
+.footer__footer p {
+  margin: 0;
+}
+.footer__footer a {
+  color: #ffffff;
+}
+.footer__footer img {
+  width: 25px;
+}
