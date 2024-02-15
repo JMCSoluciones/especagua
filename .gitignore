@@ -36,3 +36,8 @@ secrets.json
 
 #Ignore Prepros configuration file
 prepros.config 
+
+#Ignore images and video 
+assets/images/*
+assets/video/*
+
