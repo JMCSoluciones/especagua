@@ -2,64 +2,117 @@
 @import "globals.less";
 
 // Slides Index
-// .carousel-item{
-//     .slideContent{
-//         position: absolute;
-//         display: flex;
-//         top: 0;
-//         height: 100%;
-//         width: 100%;
-//         justify-content: center;
-//         &__box{
-//             color: @color-white;
-//             display: flex;
-//             flex-direction: column;
-//             justify-content: center;
-//             align-items: flex-start;
-//             text-align: left;
-//             background-color: rgba(0,46,108,.7);
-//             width: 100%;
-//             padding: 40px;
-//             &__cta{
-                
-//             }
-//         }
-//     }
-// }
+.carousel{
+    position: relative;
+    &-inner{
+        &__cta{
+            position: absolute;
+            z-index: 1;
+            width: 118px;
+            margin: 20px;
+            height: 26px;
+            bottom: 35px;
+            right: 30px;
+            font-size: @font-size-md !important;
+            font-weight: @font-semibold;
+            background-color: @color-secondary !important;
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            color: @color-white !important;
+        }
+    }
+    &-item{
+        .slideContent{
+            position: absolute;
+            display: flex;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            justify-content: center;
+            &__box{
+                color: @color-white;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: left;
+                background-color: rgba(0,46,108,.7);
+                width: 100%;
+                padding: 40px;
+                &__span{
+                    font-size: 2rem;
+                    font-weight: 800;
+                    line-height: 3rem;
+                    color: @color-secondary;
+                    align-self: flex-start;
+                    border-bottom: 1px solid @color-secondary;
+                }
+                &__title{
+                    font-size: @font-size-title;
+                    font-weight: 800;
+                    margin: 0;
+                    font-weight: @font-bold;
+                    strong{
+                        font-weight: @font-semibold;
+                    }
 
+                }
+                &__text{
+                    font-size: @font-size-lg;
+                    margin: 0;
+                    font-weight: @font-light;
+                }
+            }
+        }
+    }
+}
 
-// Modal
-// .modal{
-//     &-content{
-//         color: @color-white;
-//         // background-color: rgba(2, 2, 2,.9);
-//         background-color: rgba(12, 36, 97,1);
-//     }
-//     &-header{
-//         font-weight: 800;
-//         display: flex;
-//         justify-content: space-around;
-//         align-items: center;
-//         img{
-//             width: 45px;
-//             height: auto;
-//         }
-//         p{
-//             padding: 10px;
-//             font-size: 2rem !important;
-//         }
+//Modal
+.modal{
+    &-content{
+        color: @color-white;
+        // background-color: rgba(2, 2, 2,.9);
+        background-color: rgba(12, 36, 97,1);
+    }
+    &-title{
+        color: @color-primary;
+    }
+    &-header{
+        font-weight: 800;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        img{
+            width: 45px;
+            height: auto;
+        }
+        p{
+            padding: 10px 20px;
+            font-size: 2rem !important;
+        }
        
-//     }
-//     &-body{
-//         label{
-//             color: #222;
-//         }
-//         p{
-//             font-size: 1.4rem;
+    }
+    &-body{
+        padding: 20px !important;
+        span{
+            font-size: @font-size-sm;
+            font-weight: 800;
+            color: @color-text;
+            margin: 10px auto !important;
+        }
+        form{
+            margin: 20px auto;
+        }
+        label{
+            color: #222;
+        }
+        p{
+            font-size: 1.4rem;
 
-//         }
-//     }
-// }
+        }
+    }
+}
 .footer{
     color: @color-white;
     &__header{

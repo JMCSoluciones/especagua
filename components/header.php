@@ -1,7 +1,7 @@
 
 <header> 
   <div class="menu-top"> 
-    <p>Bienvenido a Sterowania</p><a class="menu-top__link" href="privacidad.html">Aviso de Privacidad</a>
+    <p>Bienvenido(a) s Servicios Especializados en Agua</p><a class="menu-top__link" href="privacidad.html">Aviso de Privacidad</a>
   </div>
   <nav class="menu"> 
     <section class="menu__container"> <img class="menu__logo" src="./assets/images/logo.svg"/>
