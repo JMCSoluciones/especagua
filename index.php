@@ -56,4 +56,37 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+<section class="content">
+    <article class="content__title">
+        <h1>Experiencia en instalaciones de agua por <strong>más de 20 Años</strong></h1>
+        <h3>Expertos en agua con un legado de excelencia.</h3>
+        <a href="http://" target="_blank" rel="">Conócenos</a>
+    </article>
+    <article class="content__backBox">
+        <div class="content__backBox__title">
+            <h2>Para nosotros,<strong> tu tranquilidad y bienestar son nuestra prioridad.</strong>  ¿Por qué elegirnos?</h2>
+        </div>
+        <div class="content__backBox__item">
+            <img src="./assets/images/icons/hands.svg" alt="Icono de dos manos estrechandose">
+            <h2>Atención personalizada</h2>
+            <p>Conoce nuestra gama de productos para riego y mantenimiento de jardines y áreas verdes.Nos adaptamos a tus necesidades para soluciones a medida.</p>
+        </div>
+        <div class="content__backBox__item">
+            <img src="./assets/images/icons/globe.svg" alt="Icono de un globo simulando un planeta">
+            <h2>Tecnología de Vanguardia</h2>
+            <p>Utilizamos lo último para garantizar eficiencia y calidad.</p>
+        </div>
+        <div class="content__backBox__item">
+            <img src="./assets/images/icons/flower.svg" alt="Icono de una flor">
+            <h2>Compromiso Sostenible</h2>
+            <p>Contribuimos a un futuro más verde con enfoque en la sostenibilidad.</p>   
+        </div>
+        <div class="content__backBox__item">
+            <img src="./assets/images/icons/check.svg" alt="Icono de un check">
+            <h2>Satisfacción Garantizada</h2>
+            <p>Tu contento es nuestro éxito. Confía en nosotros para transformar tu experiencia con el agua.</p>
+        </div>
+
+    </article>
+</section>
 <?php include './components/footer.php'; ?>
