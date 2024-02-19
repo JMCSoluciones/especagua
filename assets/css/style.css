@@ -245,6 +245,94 @@ body {
   margin: 0;
   font-weight: 300;
 }
+.content__products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+.content__products__title {
+  font-size: 2.4rem;
+  font-weight: 300;
+  margin: 20px;
+  padding: 20px 0;
+  text-align: center;
+  color: #151F38;
+}
+.content__products__title strong {
+  font-weight: 800;
+}
+.content__products__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  margin: 20px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 40px;
+}
+.content__products__item img {
+  width: auto;
+  height: 169px;
+}
+.content__products__item__title {
+  font-size: 2.4rem;
+  margin: 0;
+  font-weight: 600;
+  color: #002e6c;
+}
+.content__products__item__text {
+  text-align: center;
+  color: #535C68;
+  border-bottom: 2px solid #0581f5;
+  gap: 10px;
+}
+.content__products__item__text-title {
+  font-size: 1.8rem;
+  margin: 0;
+  font-weight: 600;
+  padding: 20px;
+}
+.content__products__item__text-description {
+  font-size: 1.4rem;
+  margin: 0;
+  font-weight: 400;
+  padding: 10px 0;
+}
+.content__products__item__link {
+  background-color: #002e6c;
+  padding: 5px 10px;
+  margin: 10px auto;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+.content__products__item__link a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
 .footer {
   color: #ffffff;
 }

@@ -199,6 +199,77 @@
             }
         }
     }
+    &__products{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        &__title{
+            font-size: @font-size-xlg;
+            font-weight: @font-light;
+            margin: 20px;
+            padding: 20px 0;
+            text-align: center;
+            color: @color-text;
+            strong {
+                font-weight: @font-bold;
+            }
+        }
+        &__item{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin: 20px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            padding: 40px;
+            img{
+                width: auto;
+                height: 169px;
+                
+            }
+            &__title{
+                font-size: @font-size-xlg;
+                margin: 0;
+                font-weight: @font-semibold;
+                color: @color-primary;
+            }
+            &__text{
+                text-align: center;
+                color: @color-text-light;
+                border-bottom: 2px solid @color-secondary;
+                gap: 10px;
+                &-title{
+                    font-size: @font-size-lg;
+                    margin: 0;
+                    font-weight: @font-semibold;
+                    padding: 20px;
+                }
+                &-description{
+                    font-size: @font-size-md;
+                    margin: 0;
+                    font-weight: @font-regular;
+                    padding: 10px 0;
+                }
+
+            }
+            &__link{
+                background-color: @color-primary;
+                padding: 5px 10px;
+                margin: 10px auto;
+                align-self: flex-end;
+                a{
+                    color: @color-white;
+                    text-decoration: none;
+                    font-size: @font-size-md;
+                    font-weight: @font-regular;
+                } 
+            }
+        
+        }
+    }
 }
 
 .footer{

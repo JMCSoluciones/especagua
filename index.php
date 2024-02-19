@@ -88,5 +88,26 @@
         </div>
 
     </article>
+    <article class="content__products">
+        <h2 class="content__products__title"><strong>Innovación en Cada Gota</strong> Descubre Nuestra Colección de Equipos de Última Generación para Transformar Tu Experiencia Hídrica.</h2>
+        
+        <!-- Item Filtros Suazizadores -->
+        <div class="content__products__item">
+            <h3 class="content__products__item__title">Filtros Suavizadores</h3>
+            <img loading="lazy" class="content__products__item__img" src="./assets/images/products/filtro-suavizador.jpg" alt="Imagen de un filtro de agua">
+            <div class="content__products__item__text">
+                <p class="content__products__item__text-title">
+                    Transforma tu agua
+                </p>
+                <p class="content__products__item__text-description">
+                <strong>Filtros suavizadores de última generación</strong> eliminan impurezas, protegiendo tus electrodomésticos y ofreciendo una experiencia de agua suave y pura.
+                </p>
+            </div>
+            <div class="content__products__item__link">
+                <a href="http://" target="_blank" rel="">Más Información</a>
+            </div>
+
+        </div>
+    </article>
 </section>
 <?php include './components/footer.php'; ?>
