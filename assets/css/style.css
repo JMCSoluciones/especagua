@@ -552,6 +552,122 @@ body {
   font-weight: 600;
   color: #002e6c;
 }
+.servicios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+}
+.servicios__banner {
+  background-image: url('/assets/images/mobile/productosSlides-722x1048.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 466px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+.servicios__banner__box {
+  background-color: rgba(0, 46, 108, 0.8);
+  color: #ffffff;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 40px 60px;
+}
+.servicios__banner__box__title {
+  font-size: 3.6rem;
+}
+.servicios__banner__box__description {
+  font-size: 1.8rem;
+}
+.servicios__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  margin: 40px;
+}
+.servicios__content__title {
+  padding: 20px 0;
+  text-align: center;
+  color: #151F38;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.servicios__content__title span {
+  font-size: 1.8rem;
+  font-weight: 600;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  color: #535C68;
+}
+.servicios__content__title h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #535C68;
+  text-align: left;
+}
+.servicios__content__description p {
+  font-size: 1.8rem;
+  color: #535C68;
+}
+.servicios__content__item__text h3 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #002e6c;
+  margin: 10px auto;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #0581f5;
+}
+.servicios__content__item__text p {
+  font-size: 1.8rem;
+  color: #535C68;
+  text-align: left;
+}
 .footer {
   color: #ffffff;
 }

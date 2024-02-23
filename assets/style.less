@@ -438,6 +438,92 @@
     
     }
 }
+.servicios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    &__banner{
+        background-image: url('/assets/images/mobile/productosSlides-722x1048.jpg');
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 466px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        &__box{
+            background-color: rgba(0,46,108,80%);
+            color: @color-white;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding: 40px 60px;
+            &__title{
+                font-size: @font-size-title;
+            }
+            &__description{
+                font-size: @font-size-lg;
+            }
+
+        }
+    }
+    &__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin: 40px;
+        &__title{
+            padding: 20px 0;
+            text-align: center;
+            color: @color-text;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            span{
+                font-size: @font-size-lg;
+                font-weight: 600;
+                align-self: flex-start;
+                color: @color-text-light;
+            }
+            h2{
+                font-size: @font-size-xlg;
+                font-weight: @font-semibold;
+                color: @color-text-light;
+                text-align: left;
+            }
+        }
+        &__description{
+            p{
+                font-size: @font-size-lg;
+                color: @color-text-light;
+            }
+        }
+        &__item{
+            &__text{
+                h3{
+                    font-size: @font-size-xlg;
+                    font-weight: @font-semibold;
+                    color: @color-primary;
+                    margin: 10px auto;
+                    padding-bottom: 10px;
+                    border-bottom: 3px solid @color-secondary;
+                }
+                p{
+                    font-size: @font-size-lg;
+                    color: @color-text-light;
+                    text-align: left;
+                
+                }
+            }
+           
+        }
+    }
+}
 
 .footer{
     color: @color-white;

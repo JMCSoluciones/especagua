@@ -22,7 +22,7 @@ include './components/header.php';
         <div class="empresa__content__description">
             <p>
             En ESPECAGUA, celebramos <strong>más de dos décadas proporcionando servicios especializados en agua</strong>. Nos enorgullece ofrecer instalaciones y mantenimientos profesionales de sistemas de agua con un enfoque centrado en el cliente.</p>
-            <strong><p>Nuestra dedicación va más allá de la técnica; creemos en construir relaciones sólidas y duraderas con cada cliente.</strong> Únete a nosotros para experimentar la excelencia en cada gota.
+            <p><strong>Nuestra dedicación va más allá de la técnica; creemos en construir relaciones sólidas y duraderas con cada cliente.</strong> Únete a nosotros para experimentar la excelencia en cada gota.
             </p>
         </div>
         <article class="empresa__content__item">
@@ -50,7 +50,6 @@ include './components/header.php';
                 <p>Con una mirada al futuro, aspiramos a expandir nuestro impacto, ofreciendo soluciones hídricas avanzadas a nivel nacional. Nuestro objetivo a largo plazo es <strong>ser reconocidos como referentes en la industria, manteniendo la calidad y la atención al cliente como pilares fundamentales.</strong></p>
             </div>
         </article>
-        
     </section>
     <section class="empresa__testimonios">
         <div class="empresa__testimonios__title">
