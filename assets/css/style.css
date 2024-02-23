@@ -13,16 +13,13 @@ body {
 .hidden {
   display: none !important;
 }
-.carousel {
-  position: relative;
-}
-.carousel-inner__cta {
+.ctaContacto {
   position: absolute;
   z-index: 1;
   width: 118px;
   margin: 20px;
   height: 26px;
-  bottom: 35px;
+  bottom: 40px;
   right: 30px;
   font-size: 1.4rem !important;
   font-weight: 600;
@@ -37,6 +34,9 @@ body {
       -ms-flex-align: center;
           align-items: center;
   color: #ffffff !important;
+}
+.carousel {
+  position: relative;
 }
 .carousel-item .slideContent {
   position: absolute;
@@ -291,6 +291,7 @@ body {
   -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
           box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 40px;
+  text-align: center;
 }
 .content__products__item img {
   width: auto;
@@ -319,6 +320,7 @@ body {
   margin: 0;
   font-weight: 400;
   padding: 10px 0;
+  text-align: left;
 }
 .content__products__item__link {
   background-color: #002e6c;
@@ -332,6 +334,223 @@ body {
   text-decoration: none;
   font-size: 1.4rem;
   font-weight: 400;
+}
+.content__brands {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  margin: 20px;
+}
+.content__brands__title {
+  text-align: center;
+  font-size: 2.4rem;
+  padding: 10px;
+  font-weight: 200;
+  border-bottom: 1px solid #0581f5;
+  margin: 20px 46px 5px 46px;
+}
+.content__brands__title strong {
+  font-weight: 600;
+}
+.content__brands__text {
+  margin: 0px 46px 5px 46px;
+  font-size: 1.4rem;
+  text-align: center;
+}
+.content__brands__logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+.content__brands__logos img {
+  width: 260px;
+  height: auto;
+}
+.empresa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+}
+.empresa__banner {
+  background-image: url('/assets/images/mobile/empresaSlide-722x1048.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 466px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+.empresa__banner__box {
+  background-color: rgba(0, 46, 108, 0.8);
+  color: #ffffff;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 40px 60px;
+}
+.empresa__banner__box__title {
+  font-size: 3.6rem;
+}
+.empresa__banner__box__description {
+  font-size: 1.8rem;
+}
+.empresa__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  margin: 40px;
+}
+.empresa__content__title {
+  padding: 20px 0;
+  text-align: center;
+  color: #151F38;
+}
+.empresa__content__title h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #535C68;
+  text-align: left;
+}
+.empresa__content__description p {
+  font-size: 1.8rem;
+  color: #535C68;
+}
+.empresa__content__item__text h3 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #002e6c;
+  margin: 10px auto;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #0581f5;
+}
+.empresa__content__item__text p {
+  font-size: 1.8rem;
+  color: #535C68;
+  text-align: left;
+}
+.empresa__testimonios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+.empresa__testimonios__title {
+  margin: 40px;
+  padding: 20px 0;
+  text-align: left;
+}
+.empresa__testimonios__title h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #535C68;
+}
+.empresa__testimonios__content__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  margin: 40px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px 40px;
+  text-align: center;
+}
+.empresa__testimonios__content__item__text {
+  text-align: center;
+  color: #535C68;
+  border-bottom: 1px solid #0581f5;
+  gap: 10px;
+}
+.empresa__testimonios__content__item__text p {
+  font-size: 1.8rem;
+  margin: 0;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+.empresa__testimonios__content__item__author {
+  font-size: 1.4rem;
+  margin: 0;
+  font-weight: 600;
+  color: #002e6c;
 }
 .footer {
   color: #ffffff;

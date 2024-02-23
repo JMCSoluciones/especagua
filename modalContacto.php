@@ -1,5 +1,5 @@
 <!-- Button trigger modal -->
-<button type="button" class="btn carousel-inner__cta" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<button type="button" class="btn ctaContacto" data-bs-toggle="modal" data-bs-target="#exampleModal">
   Contáctanos
 </button>
 
