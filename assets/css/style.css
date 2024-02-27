@@ -13,6 +13,44 @@ body {
 .hidden {
   display: none !important;
 }
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.btn-mas {
+  background-color: #002e6c;
+  color: #ffffff;
+  padding: 5px 10px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  width: 175px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+.btn-mas:hover {
+  background-color: #0581f5;
+}
+.btn-mas img {
+  width: 25px;
+  height: auto;
+}
 .ctaContacto {
   position: absolute;
   z-index: 1;
@@ -664,6 +702,142 @@ body {
   border-bottom: 3px solid #0581f5;
 }
 .servicios__content__item__text p {
+  font-size: 1.8rem;
+  color: #535C68;
+  text-align: left;
+}
+.consejos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+}
+.consejos__banner {
+  background-image: url('/assets/images/mobile/consejosSlides-722x1048.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 466px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+.consejos__banner__box {
+  background-color: rgba(0, 46, 108, 0.8);
+  color: #ffffff;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 40px 60px;
+}
+.consejos__banner__box__title {
+  font-size: 4.2rem;
+  padding-right: 30px;
+  font-weight: 800;
+}
+.consejos__banner__box__description {
+  font-size: 2.4rem;
+}
+.consejos__banner__box__description_sub {
+  font-size: 1.4rem;
+}
+.consejos__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  margin: 40px;
+}
+.consejos__content__title {
+  padding: 20px 0;
+  text-align: center;
+  color: #151F38;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.consejos__content__title span {
+  font-size: 1.8rem;
+  font-weight: 600;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  color: #535C68;
+}
+.consejos__content__title h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #535C68;
+  text-align: left;
+}
+.consejos__content__description p {
+  font-size: 1.8rem;
+  color: #535C68;
+}
+.consejos__content__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.consejos__content__item__text h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #002e6c;
+  margin: 10px auto;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #0581f5;
+}
+.consejos__content__item__text p {
   font-size: 1.8rem;
   color: #535C68;
   text-align: left;
