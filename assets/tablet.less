@@ -1,0 +1,138 @@
+.carousel-item .slideContent{
+    &__box{
+        align-items: flex-start;
+        padding: 170px;
+    }
+}
+.content{
+    &__title{
+        padding: 20px 120px;
+    }
+    &__backBox{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 1fr 1fr;
+        grid-template-areas: 'title title'
+                             'atencion tecnologia'
+                             'compromiso satisfaccion';
+        justify-content: center;
+        align-items: flex-start;
+        &__title{
+            grid-area: title;
+            padding: 0px 120px;
+        }
+
+        &__item{
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #backBoxitem1{
+            grid-area: atencion;
+        }
+        #backBoxitem2{
+            grid-area: tecnologia;
+        }
+        #backBoxitem3{
+            grid-area: compromiso;
+        }
+        #backBoxitem4{
+            grid-area: satisfaccion;
+        }
+    }
+    &__products{
+        margin: 40px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        &__title{
+            padding: 20px;
+        }
+        &__item{
+            width: 300px;
+            margin: 0;
+            &__title{
+                height: 125px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            &__text{
+                height: 215px;
+                text-align: left;
+                &-title{
+                padding: 20px 0;
+
+                }
+
+            }
+            &__link{
+                margin: 10px 0;
+            }
+        }
+    }
+    &__brands{
+        margin: 40px;
+        &__logos{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    }
+}
+.footer{
+    &__header{
+        flex-direction: row;
+        &__item{
+            justify-content: center;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+    }
+    &__body{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas: "logo shedule"
+                             "enlaces redes";
+        justify-content: center;
+        align-items: center;
+        &__logo{    
+            height: auto;
+            overflow: hidden;
+            grid-area: logo;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 206px;
+                height: auto;
+            }
+        }
+        &__enlaces{
+            grid-area: enlaces;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            ul{
+                text-align: left;
+
+            }
+        }
+        &__shedule{
+            grid-area: shedule;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &__redes{
+            grid-area: redes;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+}
