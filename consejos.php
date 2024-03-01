@@ -119,7 +119,7 @@ include './components/header.php';
          <article class="consejos__content__item" id="c6">
             <div class="consejos__content__item__text">
                 <div class="consejos__content__item__text__extract">
-                    <h3>Calentadores Solares para Albercas: Eficiencia y Sostenibilidad/h3>
+                    <h3>Calentadores Solares para Albercas: Eficiencia y Sostenibilidad</h3>
                     <p>Los calentadores solares son una solución eficiente y sostenible para mantener la temperatura del agua de las piscinas. La ciencia detrás de esto se relaciona con la absorción de energía solar.</p>
                 </div>
                 <div class="consejos__content__item__text__content hide" id="content_c6">

@@ -235,6 +235,45 @@
            height: 100%;
         }
     }
+    &__content{
+        padding: 40px;
+        &__title{
+            padding: 20px 120px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            span{
+                align-self: center;
+            }
+            h2{
+                text-align: center;
+
+            }
+        }
+        &__description{
+            padding: 20px;
+            max-width: 600px;
+            text-align: center;
+        }
+        &__items{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            &__item{
+                width: 280px;
+                &__text{
+                    h3{
+                        height: 80px;
+                    }
+                    height: 600px;
+                }
+            }
+        }
+    }
 }
 .footer{
     &__header{

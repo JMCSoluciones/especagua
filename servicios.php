@@ -34,7 +34,7 @@ include './components/header.php';
             <article class="servicios__content__items__item">
                 <div class="servicios__content__items__item__text">
                     <h3>Instalación de Filtros</h3>
-                    <p>Los filtros son cruciales para mantener la calidad del agua. La falta de filtros adecuados puede llevar a la acumulación de sedimentos y contaminantes, afectando la eficiencia de tu sistema. Nuestra instalación de filtros personalizada aborda estas preocupaciones, utilizando tecnología avanzada para purificar el agua. <strong>Desde filtros de carbón activado hasta filtros multicama</strong>, ofrecemos soluciones adaptadas que mejoran la calidad del agua y prolongan la vida útil de tus equipos.</strong> </p>
+                        <p>Los filtros son cruciales para mantener la calidad del agua. La falta de filtros adecuados puede llevar a la acumulación de sedimentos y contaminantes, afectando la eficiencia de tu sistema. Nuestra instalación de filtros personalizada aborda estas preocupaciones, utilizando tecnología avanzada para purificar el agua. <strong>Desde filtros de carbón activado hasta filtros multicama</strong>, ofrecemos soluciones adaptadas que mejoran la calidad del agua y prolongan la vida útil de tus equipos.</strong> </p>
                 </div>
             </article>
             <article class="servicios__content__items__item">
