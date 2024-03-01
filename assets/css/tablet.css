@@ -239,6 +239,65 @@
   padding: 145px 277px 100px 69px;
   height: 100%;
 }
+.servicios__content {
+  padding: 40px;
+}
+.servicios__content__title {
+  padding: 20px 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.servicios__content__title span {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+.servicios__content__title h2 {
+  text-align: center;
+}
+.servicios__content__description {
+  padding: 20px;
+  max-width: 600px;
+  text-align: center;
+}
+.servicios__content__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+.servicios__content__items__item {
+  width: 280px;
+}
+.servicios__content__items__item__text {
+  height: 600px;
+}
+.servicios__content__items__item__text h3 {
+  height: 80px;
+}
 .consejos__banner__box {
   padding: 145px 277px 100px 69px;
   height: 100%;

@@ -693,7 +693,7 @@ body {
   font-size: 1.8rem;
   color: #535C68;
 }
-.servicios__content__item__text h3 {
+.servicios__content__items__item__text h3 {
   font-size: 2.4rem;
   font-weight: 600;
   color: #002e6c;
@@ -701,7 +701,7 @@ body {
   padding-bottom: 10px;
   border-bottom: 3px solid #0581f5;
 }
-.servicios__content__item__text p {
+.servicios__content__items__item__text p {
   font-size: 1.8rem;
   color: #535C68;
   text-align: left;
