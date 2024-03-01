@@ -1,8 +1,53 @@
+.ctaContacto {
+  bottom: 200px;
+  right: 55px;
+}
+.carousel-item .slideContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
 .carousel-item .slideContent__box {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 10px 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto 10px auto;
+  grid-template-rows: auto auto;
+      grid-template-areas: "span text" "title text";
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  padding: 170px;
+  padding: 150px 100px;
+  gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.carousel-item .slideContent__box__span {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: span;
+}
+.carousel-item .slideContent__box__title {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: title;
+}
+.carousel-item .slideContent__box__text {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 3;
+  grid-area: text;
+  text-align: left;
+  font-size: 27px;
 }
 .content__title {
   padding: 20px 120px;
@@ -23,11 +68,15 @@
           align-items: flex-start;
 }
 .content__backBox__title {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: title;
+  padding: 0px 120px;
+}
+.content__backBox > .content__backBox__title {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
-  grid-area: title;
-  padding: 0px 120px;
 }
 .content__backBox__item {
   width: 300px;
@@ -112,6 +161,87 @@
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+.empresa__banner__box {
+  padding: 145px 277px 100px 69px;
+  height: 100%;
+}
+.empresa__content {
+  padding: 40px;
+}
+.empresa__content__title {
+  padding: 20px 120px;
+  text-align: center;
+}
+.empresa__content__description {
+  padding: 20px;
+  max-width: 600px;
+  text-align: center;
+}
+.empresa__content__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+.empresa__content__items__item {
+  width: 240px;
+}
+.empresa__content__items__item__text {
+  height: 400px;
+}
+.empresa__testimonios {
+  margin-bottom: 40px;
+  padding: 20px;
+}
+.empresa__testimonios__title {
+  width: 400px;
+  text-align: center;
+}
+.empresa__testimonios__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+}
+.empresa__testimonios__content__item {
+  width: 300px;
+  margin: 0;
+}
+.empresa__testimonios__content__item__text {
+  height: 200px;
+}
+.servicios__banner__box {
+  padding: 145px 277px 100px 69px;
+  height: 100%;
+}
+.consejos__banner__box {
+  padding: 145px 277px 100px 69px;
+  height: 100%;
 }
 .footer__header {
   -webkit-box-orient: horizontal;

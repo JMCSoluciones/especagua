@@ -512,7 +512,7 @@ body {
   font-size: 1.8rem;
   color: #535C68;
 }
-.empresa__content__item__text h3 {
+.empresa__content__items__item__text h3 {
   font-size: 2.4rem;
   font-weight: 600;
   color: #002e6c;
@@ -520,7 +520,7 @@ body {
   padding-bottom: 10px;
   border-bottom: 3px solid #0581f5;
 }
-.empresa__content__item__text p {
+.empresa__content__items__item__text p {
   font-size: 1.8rem;
   color: #535C68;
   text-align: left;
@@ -542,8 +542,8 @@ body {
   gap: 20px;
 }
 .empresa__testimonios__title {
-  margin: 40px;
-  padding: 20px 0;
+  margin: 20px 40px;
+  padding: 10px 0;
   text-align: left;
 }
 .empresa__testimonios__title h2 {
