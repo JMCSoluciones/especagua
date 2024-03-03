@@ -1,6 +1,7 @@
 .ctaContacto{
     bottom: 200px;
     right: 55px;
+    height: 40px;
 }
 .carousel-item .slideContent{
     display: flex;
@@ -9,7 +10,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto;
-        grid-template-areas: "span text"
+        grid-template-areas: "title text"
                              "title text";
 
         align-items: flex-start;
@@ -19,6 +20,7 @@
         align-items: center;
         &__span{
             grid-area: span;
+            display: none;
             // display: flex;
             // justify-content: center;
             // align-items: center;
@@ -126,7 +128,10 @@
 }
 .empresa{
     &__banner{
+        background-image: url(/assets/images/tablet/empresa-item1440x900.jpg);
+        background-attachment: unset;
         &__box{
+           background-color: rgba(0, 46, 108, 0.4);
            padding: 145px 277px 100px 69px;
            height: 100%;
         }
@@ -183,7 +188,10 @@
 }
 .servicios{
     &__banner{
+        background-image: url(/assets/images/tablet/equiposYServiciosItem1440x900.jpg);
+        background-attachment: unset;
         &__box{
+           background-color: rgba(0, 46, 108, 0.2);
            padding: 145px 277px 100px 69px;
            height: 100%;
         }
@@ -230,9 +238,12 @@
 }
 .consejos{
     &__banner{
+        background-image: url(/assets/images/tablet/consejos-item1440x900.jpg);
+        background-attachment: unset;
         &__box{
-           padding: 145px 277px 100px 69px;
-           height: 100%;
+            background-color: rgba(0, 46, 108, 0.4);
+            padding: 145px 277px 100px 69px;
+            height: 100%;
         }
     }
     &__content{
@@ -258,18 +269,18 @@
         }
         &__items{
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
             gap: 30px;
             &__item{
-                width: 280px;
+                width: 600px;
                 &__text{
                     h3{
                         height: 80px;
                     }
-                    height: 600px;
+                    height: auto;
                 }
             }
         }

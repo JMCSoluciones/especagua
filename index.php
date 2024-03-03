@@ -1,5 +1,6 @@
 <?php include './components/head.php';?>
 <?php include './components/header.php';?>
+
 <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
   <div class="carousel-inner">
         <div class="carousel-item active">
@@ -30,7 +31,7 @@
                     <p class="slideContent__box__text">Venta, instalación y mantenimiento impecables para una energía sostenible y agua caliente sin límites.</p>
                 </div>
             </div>
-        </div>
+        </div> 
         <div class="carousel-item">
             <picture class="carousel-item__img">
                 <source media="(min-width:1110px)" srcset="./assets/images/Desktop/DesktopSlides-722x1048-3.jpg" />
@@ -45,7 +46,6 @@
                 </div>
             </div>
         </div>
-        <?php //include 'modalContacto.php'; ?>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -55,14 +55,27 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-  <?php include 'modalContacto.php'; ?>
-
+  <style>
+    .ctaContacto {
+        bottom: 60px;
+        right: 77px;
+        height: 40px;
+        margin: 0 auto;
+        width: 22%;
+        }
+  </style>
+  <div class="ctaForm">
+    <?php include 'modalContacto.php';?>
+  </div>
+  <div class="formContact">
+    <?php include 'formContact.php'; ?>
+  </div>
 </div>
 <section class="content">
     <article class="content__title">
         <h1>Experiencia en instalaciones de agua por <strong>más de 20 Años</strong></h1>
         <h3>Expertos en agua con un legado de excelencia.</h3>
-        <a href="http://" target="_blank" rel="">Conócenos</a>
+        <a href="empresa.php" target="_blank" rel="">Conócenos</a>
     </article>
     <article class="content__backBox">
         <div class="content__backBox__title">

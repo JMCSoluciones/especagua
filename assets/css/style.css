@@ -130,6 +130,9 @@ body {
   margin: 0;
   font-weight: 300;
 }
+.formContact {
+  display: none;
+}
 .modal-content {
   color: #ffffff;
   background-color: #0c2461;
@@ -814,7 +817,7 @@ body {
   font-size: 1.8rem;
   color: #535C68;
 }
-.consejos__content__item {
+.consejos__content__items__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -829,7 +832,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-.consejos__content__item__text h3 {
+.consejos__content__items__item__text h3 {
   font-size: 1.8rem;
   font-weight: 600;
   color: #002e6c;
@@ -837,7 +840,7 @@ body {
   padding-bottom: 10px;
   border-bottom: 3px solid #0581f5;
 }
-.consejos__content__item__text p {
+.consejos__content__items__item__text p {
   font-size: 1.8rem;
   color: #535C68;
   text-align: left;

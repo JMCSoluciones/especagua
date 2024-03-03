@@ -1,5 +1,5 @@
 <article class="content__products">
-        <h2 class="content__products__title"><strong>Innovación en Cada Gota</strong> Descubre Nuestra Colección de Equipos de Última Generación para Transformar Tu Experiencia Hídrica.</h2>
+        <h2 class="content__products__title"><strong>Innovación en Cada Gota</strong><br> Descubre Nuestra Colección de Equipos de Última Generación para Transformar Tu Experiencia Hídrica.</h2>
         
         <!-- Item Filtros Suazizadores -->
         <div class="content__products__item" id="filtros_suavizadores">
@@ -134,7 +134,7 @@
         </div>
     </article>
     <article class="content__brands">
-        <h2 class="content__brands__title"><strong>Excelencia Garantizada</strong> con Marcas de Renombre</h2>
+        <h2 class="content__brands__title"><strong>Excelencia Garantizada</strong><br> con Marcas de Renombre</h2>
         <p class="content__brands__text">Trabajamos con las mejores marcas, asegurando <strong>calidad y rendimiento inigualables</strong> en cada solución hídrica que ofrecemos.</p>
         <div class="content__brands__logos">
             <img loading="lazy" src="./assets/images/brands/purikor.jpg" alt="Logo de la marca putikor">

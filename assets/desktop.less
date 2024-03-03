@@ -1,0 +1,362 @@
+@import "variables.less";
+@import "globals.less";
+header{
+    width: 1110px;
+    margin: 0 auto;
+}
+.menu-top{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-weight: 400;
+    p{
+        font-size: 1.2rem;
+    }
+    a{
+        text-decoration: none;
+        color: @color-text;
+        font-size: 1.2rem;
+
+
+    }
+}
+.carousel-fade{
+    background-color: red !important;
+}
+.carousel-item .slideContent__box{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1110px;
+    background-color: unset;
+    padding: 0;
+    
+    
+    &__span{
+        display: block;
+        max-width: 469px;
+        background-color: @color-white;
+        padding: 2px 20px;
+        border-radius: 5px;
+        font-weight: @font-bold;
+        border-bottom: unset;
+    }
+    &__title{
+        max-width: 469px;
+    }
+    &__text{
+        max-width: 469px;
+    }
+}
+
+// Boton del modal del formulario de contacto
+.ctaForm{
+    display: none;
+}
+.formContact{
+    background-color: #ffffff;
+    display: block;
+    width: 400px;
+    position: absolute;
+    top: -20px;
+    right: 200px;
+    z-index: 2;
+    padding: 20px 49px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 15px;
+}
+.FormularioContacto{
+    h2{
+        color:@color-primary;
+        text-align: center;
+        font-weight: 600;
+        margin: 0;
+    }
+    p{
+        color: @color-text;
+        font-size: 1.2rem;
+        text-align: center;
+        margin: 0;
+        strong{
+            font-size: 1.4rem;
+        }
+    }
+}
+.content{
+    max-width: 1110px;
+    margin: 40px auto;
+    &__title{
+        h1{
+            font-size: @font-size-super;
+        }
+        h3{
+            font-size: @font-size-xlg;
+        }
+        a{
+            padding: 10px 20px;
+            margin: 30px;
+        }
+    }
+    &__backBox{
+        max-width: 1110px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        &__title{
+            h2{
+                font-size: 5rem;
+            }
+        }
+        &__item{
+            width: 360px;
+            margin: 40px;
+            padding: 10px;
+        }
+    }
+    &__products{
+        margin: 40px auto;
+        justify-content: space-around;
+        &__item{
+            height: 600px;
+            width: 260px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10px;
+            &__title{
+                font-size: @font-size-lg;
+                padding: 55px 0px;
+            }
+            &__text{
+                height: 250px;
+                &-title{
+                    padding: 5px auto;
+                }
+                &-description{
+                    font-size: @font-size-md;
+                    padding: 5px;
+
+                }
+            }
+        }
+
+    }
+    &__brands{
+        width: 1110px;
+        margin: 20px auto;
+        &__title{
+            font-size: @font-size-super;
+        }
+        &__text{
+            font-size: @font-size-subtitle;
+        }
+    }
+   
+}
+.empresa{
+    &__banner{
+        background-image: url('/assets/images/desktop/EmpresaSlides-1920x466.jpg');
+       background-size: cover;
+       background-attachment: unset;
+        &__box{
+            background-color: unset;
+            width: 1110px;
+            height: unset;
+            padding: unset;
+            &__title{
+                font-size: @font-size-super;
+            
+            }
+            &__description{
+                font-size: @font-size-lg;
+                max-width: 400px;
+            }
+        }
+    }
+    &__content{
+      &__title{
+        h2{
+            text-align: center;
+            font-size: @font-size-super;
+            width: 800px;
+      }  
+        }
+    &__description{
+        max-width: 1110px;
+       p{
+        width: 1110px;
+       }
+    }
+    &__items{
+        max-width: 1110px;
+        flex-wrap: wrap;
+        &__item{
+            width: 400px;
+            height: auto;
+            &__text{
+                height: 200px;
+            }
+        }
+
+
+
+    }
+    &__testimonios{
+        max-width: 1110px;
+    }
+    
+
+    }
+}
+.servicios{
+    &__banner{
+        background-image: url(/assets/images/desktop/EquiposYServiciosSlides-1920x466.jpg);
+        background-size: cover;
+        background-attachment: unset;
+        &__box{
+            background-color: unset;
+            width: 1110px;
+            height: unset;
+            padding: unset;
+            &__title{
+                font-size: @font-size-super;
+            
+            }
+            &__description{
+                font-size: @font-size-lg;
+                max-width: 400px;
+            }
+        }
+    }
+    &__content{
+      &__title{
+        h2{
+            text-align: center;
+            font-size: @font-size-super;
+            width: 800px;
+      }  
+        }
+    &__description{
+        max-width: 1110px;
+       p{
+        width: 1110px;
+       }
+    }
+    &__items{
+        max-width: 1110px;
+        flex-wrap: wrap;
+        &__item{
+            width: 400px;
+            &__text{
+                height: 400px;
+            }
+        }
+    }
+    }
+    &__products{
+        margin: 40px auto;
+        justify-content: space-around;
+        &__item{
+            height: 600px;
+            width: 260px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10px;
+            &__title{
+                font-size: @font-size-lg;
+                padding: 55px 0px;
+            }
+            &__text{
+                height: 250px;
+                &-title{
+                    padding: 5px auto;
+                }
+                &-description{
+                    font-size: @font-size-md;
+                    padding: 5px;
+
+                }
+            }
+        }
+
+    }
+}
+.consejos{
+    &__banner{
+        background-image: url(/assets/images/desktop/ConsejosSlides-1920x466.jpg);
+        background-attachment: unset;
+        &__box{
+            background-color: rgba(0, 46, 108, 0.4);
+            width: 1110px;
+            height: 100%;
+            width: 100%;
+            padding-left: 300px;
+            &__title{
+                font-size: @font-size-super;
+            
+            }
+            &__description{
+                width: 400px;
+
+                strong{
+                    font-size: 3.6rem;
+                }
+                &_sub{
+                    font-size: @font-size-lg;
+                }
+            }
+        
+        }
+    }
+    &__content{
+        max-width: 1110px;
+        margin: 0 auto;
+        &__title{
+            h2{
+                font-size: @font-size-super;
+                text-align: center;
+            }
+        }
+        &__description{
+            max-width: 800px;
+            p{
+               
+            }
+        }
+        &__items{
+            max-width: 1110px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 40px;
+            &__item{
+                width: 400px;
+                &__text{
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+.footer{
+    &__header{
+        width: 100%;
+        &__item{
+            width: 300px;
+            &__text{
+                a{
+                    justify-content: flex-start;
+                }
+            }
+        }
+    }
+    &__body{
+        padding: 0 200px;
+    }
+}   

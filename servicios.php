@@ -10,8 +10,21 @@ include './components/header.php';
             <p class="servicios__banner__box__description">
                 Nuestro mantenimiento garantiza eficiencia y durabilidad sin complicaciones.
             </p>
-            <?php include 'modalContacto.php'; ?>
         </div>
+        <div class="ctaForm">
+            <?php include 'modalContacto.php';?>
+        </div>
+        <div class="formContact">
+            <?php include 'formContact.php'; ?>
+        </div>
+            <style>
+                .servicios__banner__box__title{
+                    width: 200px;
+                }
+                .formContact{
+                    right: 570px;
+                }
+            </style>
     </section>
     <section class="servicios__content">
         <div class="servicios__content__title">
@@ -34,7 +47,7 @@ include './components/header.php';
             <article class="servicios__content__items__item">
                 <div class="servicios__content__items__item__text">
                     <h3>Instalación de Filtros</h3>
-                        <p>Los filtros son cruciales para mantener la calidad del agua. La falta de filtros adecuados puede llevar a la acumulación de sedimentos y contaminantes, afectando la eficiencia de tu sistema. Nuestra instalación de filtros personalizada aborda estas preocupaciones, utilizando tecnología avanzada para purificar el agua. <strong>Desde filtros de carbón activado hasta filtros multicama</strong>, ofrecemos soluciones adaptadas que mejoran la calidad del agua y prolongan la vida útil de tus equipos.</strong> </p>
+                    <p>Los filtros son cruciales para mantener la calidad del agua. La falta de filtros adecuados puede llevar a la acumulación de sedimentos y contaminantes, afectando la eficiencia de tu sistema. Nuestra instalación de filtros personalizada aborda estas preocupaciones, utilizando tecnología avanzada para purificar el agua. <strong>Desde filtros de carbón activado hasta filtros multicama</strong>, ofrecemos soluciones adaptadas que mejoran la calidad del agua y prolongan la vida útil de tus equipos.</strong> </p>
                 </div>
             </article>
             <article class="servicios__content__items__item">
@@ -58,7 +71,10 @@ include './components/header.php';
         </section>
       
     </section>
-    <?php include 'equipos.php';?>
+    <section class="content">
+        <?php include 'equipos.php';?>
+
+    </section>
    
 </main>
 

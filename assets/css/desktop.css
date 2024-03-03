@@ -1,0 +1,376 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Inter', sans-serif;
+}
+.hidden {
+  display: none !important;
+}
+header {
+  width: 1110px;
+  margin: 0 auto;
+}
+.menu-top {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  font-weight: 400;
+}
+.menu-top p {
+  font-size: 1.2rem;
+}
+.menu-top a {
+  text-decoration: none;
+  color: #151F38;
+  font-size: 1.2rem;
+}
+.carousel-fade {
+  background-color: red !important;
+}
+.carousel-item .slideContent__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  max-width: 1110px;
+  background-color: unset;
+  padding: 0;
+}
+.carousel-item .slideContent__box__span {
+  display: block;
+  max-width: 469px;
+  background-color: #ffffff;
+  padding: 2px 20px;
+  border-radius: 5px;
+  font-weight: 800;
+  border-bottom: unset;
+}
+.carousel-item .slideContent__box__title {
+  max-width: 469px;
+}
+.carousel-item .slideContent__box__text {
+  max-width: 469px;
+}
+.ctaForm {
+  display: none;
+}
+.formContact {
+  background-color: #ffffff;
+  display: block;
+  width: 400px;
+  position: absolute;
+  top: -20px;
+  right: 200px;
+  z-index: 2;
+  padding: 20px 49px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 15px;
+}
+.FormularioContacto h2 {
+  color: #002e6c;
+  text-align: center;
+  font-weight: 600;
+  margin: 0;
+}
+.FormularioContacto p {
+  color: #151F38;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0;
+}
+.FormularioContacto p strong {
+  font-size: 1.4rem;
+}
+.content {
+  max-width: 1110px;
+  margin: 40px auto;
+}
+.content__title h1 {
+  font-size: 5.6rem;
+}
+.content__title h3 {
+  font-size: 2.4rem;
+}
+.content__title a {
+  padding: 10px 20px;
+  margin: 30px;
+}
+.content__backBox {
+  max-width: 1110px;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.content__backBox__title h2 {
+  font-size: 5rem;
+}
+.content__backBox__item {
+  width: 360px;
+  margin: 40px;
+  padding: 10px;
+}
+.content__products {
+  margin: 40px auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.content__products__item {
+  height: 600px;
+  width: 260px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 10px;
+}
+.content__products__item__title {
+  font-size: 1.8rem;
+  padding: 55px 0px;
+}
+.content__products__item__text {
+  height: 250px;
+}
+.content__products__item__text-title {
+  padding: 5px auto;
+}
+.content__products__item__text-description {
+  font-size: 1.4rem;
+  padding: 5px;
+}
+.content__brands {
+  width: 1110px;
+  margin: 20px auto;
+}
+.content__brands__title {
+  font-size: 5.6rem;
+}
+.content__brands__text {
+  font-size: 2.4rem;
+}
+.empresa__banner {
+  background-image: url('/assets/images/desktop/EmpresaSlides-1920x466.jpg');
+  background-size: cover;
+  background-attachment: unset;
+}
+.empresa__banner__box {
+  background-color: unset;
+  width: 1110px;
+  height: unset;
+  padding: unset;
+}
+.empresa__banner__box__title {
+  font-size: 5.6rem;
+}
+.empresa__banner__box__description {
+  font-size: 1.8rem;
+  max-width: 400px;
+}
+.empresa__content__title h2 {
+  text-align: center;
+  font-size: 5.6rem;
+  width: 800px;
+}
+.empresa__content__description {
+  max-width: 1110px;
+}
+.empresa__content__description p {
+  width: 1110px;
+}
+.empresa__content__items {
+  max-width: 1110px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.empresa__content__items__item {
+  width: 400px;
+  height: auto;
+}
+.empresa__content__items__item__text {
+  height: 200px;
+}
+.empresa__content__testimonios {
+  max-width: 1110px;
+}
+.servicios__banner {
+  background-image: url(/assets/images/desktop/EquiposYServiciosSlides-1920x466.jpg);
+  background-size: cover;
+  background-attachment: unset;
+}
+.servicios__banner__box {
+  background-color: unset;
+  width: 1110px;
+  height: unset;
+  padding: unset;
+}
+.servicios__banner__box__title {
+  font-size: 5.6rem;
+}
+.servicios__banner__box__description {
+  font-size: 1.8rem;
+  max-width: 400px;
+}
+.servicios__content__title h2 {
+  text-align: center;
+  font-size: 5.6rem;
+  width: 800px;
+}
+.servicios__content__description {
+  max-width: 1110px;
+}
+.servicios__content__description p {
+  width: 1110px;
+}
+.servicios__content__items {
+  max-width: 1110px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.servicios__content__items__item {
+  width: 400px;
+}
+.servicios__content__items__item__text {
+  height: 400px;
+}
+.servicios__products {
+  margin: 40px auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.servicios__products__item {
+  height: 600px;
+  width: 260px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 10px;
+}
+.servicios__products__item__title {
+  font-size: 1.8rem;
+  padding: 55px 0px;
+}
+.servicios__products__item__text {
+  height: 250px;
+}
+.servicios__products__item__text-title {
+  padding: 5px auto;
+}
+.servicios__products__item__text-description {
+  font-size: 1.4rem;
+  padding: 5px;
+}
+.consejos__banner {
+  background-image: url(/assets/images/desktop/ConsejosSlides-1920x466.jpg);
+  background-attachment: unset;
+}
+.consejos__banner__box {
+  background-color: rgba(0, 46, 108, 0.4);
+  width: 1110px;
+  height: 100%;
+  width: 100%;
+  padding-left: 300px;
+}
+.consejos__banner__box__title {
+  font-size: 5.6rem;
+}
+.consejos__banner__box__description {
+  width: 400px;
+}
+.consejos__banner__box__description strong {
+  font-size: 3.6rem;
+}
+.consejos__banner__box__description_sub {
+  font-size: 1.8rem;
+}
+.consejos__content {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.consejos__content__title h2 {
+  font-size: 5.6rem;
+  text-align: center;
+}
+.consejos__content__description {
+  max-width: 800px;
+}
+.consejos__content__items {
+  max-width: 1110px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 40px;
+}
+.consejos__content__items__item {
+  width: 400px;
+}
+.consejos__content__items__item__text {
+  height: auto;
+}
+.footer__header {
+  width: 100%;
+}
+.footer__header__item {
+  width: 300px;
+}
+.footer__header__item__text a {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.footer__body {
+  padding: 0 200px;
+}

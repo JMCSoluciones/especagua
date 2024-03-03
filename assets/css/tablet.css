@@ -1,6 +1,7 @@
 .ctaContacto {
   bottom: 200px;
   right: 55px;
+  height: 40px;
 }
 .carousel-item .slideContent {
   display: -webkit-box;
@@ -18,7 +19,7 @@
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto 10px auto;
   grid-template-rows: auto auto;
-      grid-template-areas: "span text" "title text";
+      grid-template-areas: "title text" "title text";
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -32,12 +33,12 @@
           align-items: center;
 }
 .carousel-item .slideContent__box__span {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
   grid-area: span;
+  display: none;
 }
 .carousel-item .slideContent__box__title {
-  -ms-grid-row: 3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
   -ms-grid-column: 1;
   grid-area: title;
 }
@@ -68,13 +69,15 @@
           align-items: flex-start;
 }
 .content__backBox__title {
-  -ms-grid-row: 3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
   -ms-grid-column: 1;
   grid-area: title;
   padding: 0px 120px;
 }
 .content__backBox > .content__backBox__title {
   -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
 }
@@ -162,7 +165,12 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+.empresa__banner {
+  background-image: url(/assets/images/tablet/empresa-item1440x900.jpg);
+  background-attachment: unset;
+}
 .empresa__banner__box {
+  background-color: rgba(0, 46, 108, 0.4);
   padding: 145px 277px 100px 69px;
   height: 100%;
 }
@@ -235,7 +243,12 @@
 .empresa__testimonios__content__item__text {
   height: 200px;
 }
+.servicios__banner {
+  background-image: url(/assets/images/tablet/equiposYServiciosItem1440x900.jpg);
+  background-attachment: unset;
+}
 .servicios__banner__box {
+  background-color: rgba(0, 46, 108, 0.2);
   padding: 145px 277px 100px 69px;
   height: 100%;
 }
@@ -298,7 +311,12 @@
 .servicios__content__items__item__text h3 {
   height: 80px;
 }
+.consejos__banner {
+  background-image: url(/assets/images/tablet/consejos-item1440x900.jpg);
+  background-attachment: unset;
+}
 .consejos__banner__box {
+  background-color: rgba(0, 46, 108, 0.4);
   padding: 145px 277px 100px 69px;
   height: 100%;
 }
@@ -338,10 +356,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-pack: center;
@@ -353,10 +371,10 @@
   gap: 30px;
 }
 .consejos__content__items__item {
-  width: 280px;
+  width: 600px;
 }
 .consejos__content__items__item__text {
-  height: 600px;
+  height: auto;
 }
 .consejos__content__items__item__text h3 {
   height: 80px;

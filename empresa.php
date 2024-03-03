@@ -1,6 +1,9 @@
 <?php 
 include './components/head.php';
 include './components/header.php';
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 ?>
 <!-- Slide Principal -->
 <main class="empresa">
@@ -8,16 +11,24 @@ include './components/header.php';
         <div class="empresa__banner__box">
             <h1 class="empresa__banner__box__title">Nuestra Empresa</h1>
             <p class="empresa__banner__box__description">
-                Somos una empresa con más de 20 años de experiencia en el tratamiento de agua, 
-                especializados en la fabricación de equipos y sistemas de tratamiento de agua para 
-                la industria, comercio y hogar.
+                Somos una empresa con más de 20 años de experiencia en el tratamiento de agua.
+                Nuestro mantenimiento garantiza eficiencia y durabilidad sin complicaciones.
             </p>
-            <?php include 'modalContacto.php'; ?>
+           
         </div>
+        <div class="ctaForm">
+                <?php include 'modalContacto.php';?>
+            </div>
+            <div class="formContact">
+                <?php include 'formContact.php'; ?>
+            </div>
     </section>
     <section class="empresa__content">
         <div class="empresa__content__title">
-            <h2>Expertos en instalaciones de agua por más de 20 Años</h2>
+            <h2>
+                Expertos en instalaciones de agua por más de 20 Años
+               
+            </h2>
         </div>
         <div class="empresa__content__description">
             <p>
@@ -56,7 +67,7 @@ include './components/header.php';
     </section>
     <section class="empresa__testimonios">
         <div class="empresa__testimonios__title">
-            <h2>Testimonios que avalan la calidad de nuestros servicios</h2>
+            <h2>Testimonios que avalan la calidad de nuestros servicios </h2>
         </div>
         <div class="empresa__testimonios__content">
             <div class="empresa__testimonios__content__item">
