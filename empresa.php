@@ -16,10 +16,10 @@ error_reporting(E_ALL);
             </p>
            
         </div>
-        <div class="ctaForm">
+        <div class="ctaForm slideUp">
                 <?php include 'modalContacto.php';?>
             </div>
-            <div class="formContact">
+            <div class="formContact slideUp">
                 <?php include 'formContact.php'; ?>
             </div>
     </section>

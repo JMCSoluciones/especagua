@@ -14,13 +14,14 @@
                 </p>
             </div>
             <div class="content__products__item__link">
-                <a href="http://" target="_blank" rel="">Más Información</a>
+                <!-- <a href="http://" target="_blank" rel="">Más Información</a> -->
+                <?php include 'modal-suavizadorGabinete.php';?>
             </div>
         </div>
         <!-- Item Filtros de Carbón Multicama -->
-        <div class="content__products__item" id="filtros_carbonMulticama">
+        <div class="content__products__item" id="Multicama">
             <h3 class="content__products__item__title">Filtros de Carbón Activado y Multicama</h3>
-            <img loading="lazy" class="content__products__item__img" src="./assets/images/products/filtro-suavizador.jpg" alt="Imagen de un filtro de agua">
+            <img loading="lazy" class="content__products__item__img" src="./assets/images/products/trenFiltrado.jpg" alt="Imagen de un filtro de agua">
             <div class="content__products__item__text">
                 <p class="content__products__item__text-title">
                     Pura excelencia
@@ -31,47 +32,13 @@
                 </p>
             </div>
             <div class="content__products__item__link">
-                <a href="http://" target="_blank" rel="">Más Información</a>
-            </div>
-        </div>
-         <!-- Item Equipos Priificadores de Luz Ultravioleta -->
-         <div class="content__products__item" id="filtros_carbonMulticama">
-            <h3 class="content__products__item__title">Equipos Priificadores de Luz Ultravioleta</h3>
-            <img loading="lazy" class="content__products__item__img" src="./assets/images/products/filtro-suavizador.jpg" alt="Imagen de un filtro de agua">
-            <div class="content__products__item__text">
-                <p class="content__products__item__text-title">
-                    Luz purificadora
-                </p>
-                <p class="content__products__item__text-description">
-                Defiende tu salud con nuestros equipos UV. La tecnología de luz ultravioleta  
-                <strong>elimina bacterias y virus, asegurando agua limpia y segura.</strong> 
-                </p>
-            </div>
-            <div class="content__products__item__link">
-                <a href="http://" target="_blank" rel="">Más Información</a>
-            </div>
-        </div>
-         <!-- Item Osmosis inversa -->
-         <div class="content__products__item" id="filtros_carbonMulticama">
-            <h3 class="content__products__item__title">Osmosis Inversa</h3>
-            <img loading="lazy" class="content__products__item__img" src="./assets/images/products/filtro-suavizador.jpg" alt="Imagen de un filtro de agua">
-            <div class="content__products__item__text">
-                <p class="content__products__item__text-title">
-                 Pureza al revés
-                </p>
-                <p class="content__products__item__text-description">
-                Descubre la perfección del agua con nuestra osmosis inversa.  
-                <strong>Elimina impurezas y sabores, proporcionando un agua de calidad inigualable.</strong> 
-                </p>
-            </div>
-            <div class="content__products__item__link">
-                <a href="http://" target="_blank" rel="">Más Información</a>
+            <?php include 'modal-trenFiltrado.php';?>
             </div>
         </div>
          <!-- Item Calentadores Solares de Albercas -->
-         <div class="content__products__item" id="filtros_carbonMulticama">
+         <div class="content__products__item" id="calentadorSolar">
             <h3 class="content__products__item__title">Calentadores Solares de Albercas</h3>
-            <img loading="lazy" class="content__products__item__img" src="./assets/images/products/filtro-suavizador.jpg" alt="Imagen de un filtro de agua">
+            <img loading="lazy" class="content__products__item__img" src="./assets/images/products/calentadorSolar.jpg" alt="Imagen de calentador Solar para alberca">
             <div class="content__products__item__text">
                 <p class="content__products__item__text-title">
                 Energía sostenible
@@ -81,29 +48,46 @@
                 </p>
             </div>
             <div class="content__products__item__link">
-                <a href="http://" target="_blank" rel="">Más Información</a>
+                <?php include 'modal-calentadorSolarAlberca.php';?>
             </div>
         </div>
-         <!-- Item Equipos para albercas -->
-         <div class="content__products__item" id="filtros_carbonMulticama">
-            <h3 class="content__products__item__title">Equipos para albercas</h3>
-            <img loading="lazy" class="content__products__item__img" src="./assets/images/products/filtro-suavizador.jpg" alt="Imagen de un filtro de agua">
+         <!-- Item Equipos Suavizadores Twins -->
+         <div class="content__products__item" id="suavizadoresTwin">
+            <h3 class="content__products__item__title">Suavizadores Twin</h3>
+            <img loading="lazy" class="content__products__item__img" src="./assets/images/products/suavizadoresTwin.jpg" alt="Imagen de suavizadores Twin">
             <div class="content__products__item__text">
                 <p class="content__products__item__text-title">
-                Albercas impecables
+                Transformando tu Agua.
                 </p>
                 <p class="content__products__item__text-description">
-                Ofrecemos equipos de vanguardia para <strong>mantener tu oasis en perfecto estado, garantizando diversión sin preocupaciones durante todo el año.</strong>
+                Descubre el poder de la suavidad inigualable con nuestros Suavizadores Twin. <strong>Diseñados para transformar la calidad del agua en tu hogar o negocio.</strong> 
                 </p>
             </div>
             <div class="content__products__item__link">
-                <a href="http://" target="_blank" rel="">Más Información</a>
+            <?php include 'modal-suavizadorTwin.php';?>
+
             </div>
         </div>
-         <!-- Item Equipos Hidroneumáticos -->
-         <div class="content__products__item" id="filtros_carbonMulticama">
+           <!-- Item Equipos de Velocidad Variable -->
+           <div class="content__products__item" id="velocidadVariable">
+            <h3 class="content__products__item__title">Equipos de Velocidad Variable</h3>
+            <img loading="lazy" class="content__products__item__img" src="./assets/images/products/velocidadVariable.jpg" alt="Imagen de un equipo de Velocidad Variable">
+            <div class="content__products__item__text">
+                <p class="content__products__item__text-title">
+                Eficiencia Hídrica
+                </p>
+                <p class="content__products__item__text-description">
+                Experimenta la eficiencia con nuestros equipos de velocidad variable. <strong>Optimiza el rendimiento y ahorra energía para un sistema de agua inteligente.</strong>
+                </p>
+            </div>
+            <div class="content__products__item__link">
+                <?php include 'modal-velocidadVariable.php';?>
+            </div>
+        </div>
+          <!-- Item Equipos Hidroneumáticos -->
+        <div class="content__products__item" id="equiposHidroneumaticos">
             <h3 class="content__products__item__title">Equipos Hidroneumáticos</h3>
-            <img loading="lazy" class="content__products__item__img" src="./assets/images/products/filtro-suavizador.jpg" alt="Imagen de un filtro de agua">
+            <img loading="lazy" class="content__products__item__img" src="./assets/images/products/eHidroneumaticos.jpg" alt="Imagen de equipos hidroneumaticos">
             <div class="content__products__item__text">
                 <p class="content__products__item__text-title">
                 Presión perfecta
@@ -111,27 +95,44 @@
                 <p class="content__products__item__text-description">
                 Nuestros equipos hidroneumáticos ofrecen un suministro de agua constante y eficiente, <strong>garantizando un flujo perfecto en todo momento.</strong>
                 </p>
-            </div>
-            <div class="content__products__item__link">
-                <a href="http://" target="_blank" rel="">Más Información</a>
-            </div>
         </div>
-         <!-- Item Equipos de Velocidad Variable -->
-         <div class="content__products__item" id="filtros_carbonMulticama">
-            <h3 class="content__products__item__title">Equipos de Velocidad Variable</h3>
-            <img loading="lazy" class="content__products__item__img" src="./assets/images/products/filtro-suavizador.jpg" alt="Imagen de un filtro de agua">
+        <div class="content__products__item__link">
+            <?php include 'modal-equiposHidroneumaticos.php';?>
+        </div>
+        </div>
+        <!-- Item Tanques Hidroneumáticos -->
+        <div class="content__products__item" id="tanqueHidroneumatico">
+            <h3 class="content__products__item__title">Tanque Hidroneumático</h3>
+            <img loading="lazy" class="content__products__item__img" src="./assets/images/products/tHidroneumatico.jpg" alt="Imagen de un tanque hidroneumático">
             <div class="content__products__item__text">
                 <p class="content__products__item__text-title">
-                Control total
+                    Suministro Ininterrumpido
                 </p>
                 <p class="content__products__item__text-description">
-                Experimenta la eficiencia con nuestros equipos de velocidad variable. <strong>Optimiza el rendimiento y ahorra energía para un sistema de agua inteligente.</strong>
+                     <strong>Eleva la eficiencia y la presión</strong> de tu sistema de agua con nuestros Tanques Hidroneumáticos. 
                 </p>
             </div>
             <div class="content__products__item__link">
-                <a href="http://" target="_blank" rel="">Más Información</a>
+                <?php include 'modal-tanqueHidroneumatico.php';?>
             </div>
         </div>
+
+         <!-- Item Equipos Hidroneumáticos con bombas de superficie -->
+         <div class="content__products__item" id="eHidroneumaticoBomba">
+            <h3 class="content__products__item__title">Equipos Hidroneumáticos con Bombas de Superficie</h3>
+            <img loading="lazy" class="content__products__item__img" src="./assets/images/products/eHidroneumaticoBomba.jpg" alt="Imagen de un equipo hidroneumatico con bomba de superficie">
+            <div class="content__products__item__text">
+                <p class="content__products__item__text-title">
+                Potencia y Rendimiento en un Solo Paquete
+                </p>
+                <p class="content__products__item__text-description">
+                <strong>Aumenta la presión y mejora la eficiencia </strong> de tu suministro de agua con nuestros Equipos Hidroneumáticos con Bomba de Superficie.
+                </p>
+            </div>
+            <div class="content__products__item__link">
+               <?php include 'modal-eHidroneumaticoBomba.php';?>
+            </div>
+        </div>  
     </article>
     <article class="content__brands">
         <h2 class="content__brands__title"><strong>Excelencia Garantizada</strong><br> con Marcas de Renombre</h2>

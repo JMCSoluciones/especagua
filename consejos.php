@@ -13,10 +13,10 @@ include './components/header.php';
             <p class="consejos__banner__box__description_sub">
                 Descubre las Claves para Preservar Nuestro Recurso más Preciado.        
             </p>
-            <div class="ctaForm">
+            <div class="ctaForm slideUp">
                 <?php include 'modalContacto.php';?>
             </div>
-            <div class="formContact">
+            <div class="formContact slideUp">
                 <?php include 'formContact.php'; ?>
             </div>
         </div>

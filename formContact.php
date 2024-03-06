@@ -3,11 +3,10 @@
         Solicita una Cotización
     </h2>
     <p> Descubre soluciones hídricas a medida. <br> <strong>¡Llena el formulario ahora! </strong><br> Tu bienestar comienza con una comunicación personalizada.</p>
-    <form action="process.php" method="POST" id="formulario">
+    <form action="process.php" method="POST" id="formularioC">
         <div class="form-floating mb-3">
             <input class="form-control form-control-lg" placeholder="Ingrese su nombre completo" type="text" name="nombre"
-                aria-describedby="nombre" maxlength="30" minlength="3" required id="nombre_form"
-                pattern="[A-Za-z0-9_-]{3,30}" />
+                aria-describedby="nombre" maxlength="30" minlength="3" required id="nombre_form" />
             <label for="nombre_form">Nombre Completo</label>
         </div>
         <div class="form-floating mb-3">
@@ -26,16 +25,16 @@
             <label for="mensaje_form">Mensaje</label>
         </div>
         <div class="form-floating mb-3">
-            <div class="g-recaptcha" data-sitekey="6LeYiHYpAAAAAG0zMG_SNrvLTZv1NL1wZeSEKsEb"></div>
+            <div class="g-recaptcha" data-sitekey="6LfpP4opAAAAADl_cUO1C93Ok6Z7zFsolz594TWi"></div>
         </div>
         <div class="modal-body__buttons modal-footer">
-            <button class="btn btn-primary btn-lg" onclick="" type="submit">
+            <button class="btn btn-primary btn-lg" type="submit">
                 Enviar
             </button>
         </div>
         <input type="hidden" name="oculto" value="1" />
         <div class="form-floating mb-3">
-            <div class="" id="mostrar_mensaje"></div>
+            <div class="" id="mensaje_Contacto"></div>
         </div>
     </form>
 </div>

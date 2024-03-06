@@ -4,13 +4,13 @@
             <img src="./assets/images/icons/phone.svg" alt="Icono de un sobre">
             <div class="footer__header__item__text">
                 <p><strong>Whatsapp </strong>449-201-7286</p>
-                <a class="footer__header__item__text-link" href="#">Enviar mensaje</a>
+                <a class="footer__header__item__text-link" target="_blank" href="https://wa.me/+524492017286?text='Hola ESPECAGUA.'">Enviar mensaje</a>
             </div>
         </div>
         <div class="footer__header__item">
             <img src="./assets/images/icons/email.svg" alt="Icono de un sobre">
             <div class="footer__header__item__text">
-                <a href="#">contacto@especagua.com</a>
+                <a href="mailto:contacto@especagua.com">contacto@especagua.com</a>
             </div>
         </div>
     </header>
@@ -27,7 +27,7 @@
                 <li><a href="empresa.php">Empresa</a></li>
                 <li><a href="servicios.php">Equipos y Servicios</a></li>
                 <li><a href="consejos.php">Consejos Hídricos</a></li>
-                <li><a href="privacidad.php">Aviso de Privacidad</a></li>
+                <li><a href="aviso.php">Aviso de Privacidad</a></li>
             </ul>
         </div>
         <div class="footer__body__schedule">
@@ -51,7 +51,7 @@
             <p class="footer__body__redes-title">
                 SÍGUENOS
             </p>
-            <a href="#">
+            <a href="http://facebook.com">
                 <img src="./assets/images/icons/facebook.svg" alt="">
             </a>
         </div>
@@ -62,13 +62,11 @@
         echo $year;
         ?></strong></p>
        
-        <p>Desarrollado por <a href="https://jmcsoluciones.com"><strong>JMC Soluciones</strong></a></p>
+        <p>Desarrollado por <a href="https://jmcsoluciones.com" target="_blank"><strong>JMC Soluciones</strong></a></p>
         <img src="https://jmcsoluciones.com/assets/images/isoJMC.svg" alt="Logotipo de JMC">
     </footer>
 </footer>
+<script src="/js/script.js"></script>
 <script src="./js/app-dist.js"></script>
-<script src="./js/script.js"></script>
-
-
 </body>
 </html>

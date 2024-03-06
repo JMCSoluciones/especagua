@@ -1,9 +1,9 @@
 <header> 
   <div class="menu-top"> 
-    <p>Bienvenido(a) s Servicios Especializados en Agua</p><a class="menu-top__link" href="privacidad.html">Aviso de Privacidad</a>
+    <p>Bienvenido(a) s Servicios Especializados en Agua</p><a class="menu-top__link" href="aviso.php">Aviso de Privacidad</a>
   </div>
   <nav class="menu"> 
-    <section class="menu__container"> <img class="menu__logo" src="./assets/images/logo.svg"/>
+    <section class="menu__container"> <img class="menu__logo" src="./assets/images/logo.svg" alt="Logotipo de ESPECAGUA"/>
       <ul class="menu__links"> 
         <li class="menu__item"> <a class="menu__link" href="/">Inicio</a></li>
         <li class="menu__item"> <a class="menu__link" href="empresa.php">Empresa</a></li>

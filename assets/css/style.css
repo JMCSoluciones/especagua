@@ -134,7 +134,6 @@ body {
   display: none;
 }
 .modal-content {
-  color: #ffffff;
   background-color: #0c2461;
 }
 .modal-title {
@@ -176,6 +175,42 @@ body {
 }
 .modal-body p {
   font-size: 1.4rem;
+}
+.modal-body-products__description {
+  text-align: justify;
+  padding: 10px;
+  border-bottom: 1px solid #002e6c;
+}
+.modal-body-products__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+.modal-body-products__items__item {
+  text-align: justify;
+  font-size: 1.2rem;
+  margin: 5px;
+}
+.modal-body-products__items__item strong {
+  color: #002e6c;
+}
+.modal-footer-products__wa {
+  background-color: #00a884;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
 }
 .content {
   display: -webkit-box;
@@ -364,7 +399,6 @@ body {
   text-align: left;
 }
 .content__products__item__link {
-  background-color: #002e6c;
   padding: 5px 10px;
   margin: 10px auto;
   -ms-flex-item-align: end;
@@ -447,7 +481,6 @@ body {
 .empresa__banner {
   background-image: url('/assets/images/mobile/empresaSlide-722x1048.jpg');
   background-position: center;
-  background-attachment: fixed;
   background-size: cover;
   height: 466px;
   display: -webkit-box;
@@ -462,9 +495,9 @@ body {
   position: relative;
 }
 .empresa__banner__box {
-  background-color: rgba(0, 46, 108, 0.8);
+  background-color: rgba(0, 46, 108, 0.7);
   color: #ffffff;
-  height: 400px;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -611,7 +644,6 @@ body {
 .servicios__banner {
   background-image: url('/assets/images/mobile/productosSlides-722x1048.jpg');
   background-position: center;
-  background-attachment: fixed;
   background-size: cover;
   height: 466px;
   display: -webkit-box;
@@ -626,9 +658,9 @@ body {
   position: relative;
 }
 .servicios__banner__box {
-  background-color: rgba(0, 46, 108, 0.8);
+  background-color: rgba(0, 46, 108, 0.5);
   color: #ffffff;
-  height: 400px;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -727,9 +759,8 @@ body {
 .consejos__banner {
   background-image: url('/assets/images/mobile/consejosSlides-722x1048.jpg');
   background-position: center;
-  background-attachment: fixed;
   background-size: cover;
-  height: 466px;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -742,7 +773,7 @@ body {
   position: relative;
 }
 .consejos__banner__box {
-  background-color: rgba(0, 46, 108, 0.8);
+  background-color: rgba(0, 46, 108, 0.3);
   color: #ffffff;
   height: 400px;
   display: -webkit-box;
@@ -844,6 +875,19 @@ body {
   font-size: 1.8rem;
   color: #535C68;
   text-align: left;
+}
+.privacidad {
+  margin: 40px auto;
+  max-width: 1110px;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.4rem;
+}
+.privacidad h2 {
+  color: #002e6c;
+  font-weight: 600;
+}
+.privacidad p {
+  text-align: justify;
 }
 .footer {
   color: #ffffff;
@@ -1016,4 +1060,50 @@ body {
 }
 .footer__footer img {
   width: 25px;
+}
+.error404 {
+  border-top: 1px solid #002e6c;
+  margin: 20px auto;
+  max-width: 1110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px;
+}
+.error404 h1 {
+  font-size: 5rem;
+  font-weight: 800;
+  color: #002e6c;
+  text-align: center;
+}
+.error404 p {
+  font-size: 1.8rem;
+  text-align: center;
+}
+.error404 a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+  background-color: #ffffff;
+  padding: 5px 10px;
+  margin: 20px auto;
+  background-color: #002e6c;
+  border-radius: 10px;
+}
+.error404 a:hover {
+  background-color: #0581f5;
+}
+.error404 img {
+  max-width: 500px;
 }

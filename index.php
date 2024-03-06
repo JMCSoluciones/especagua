@@ -5,12 +5,12 @@
   <div class="carousel-inner">
         <div class="carousel-item active">
             <picture class="carousel-item__img">
-                <source media="(min-width:1110px)" srcset="./assets/images/Desktop/DesktopSlides-722x1048-1.jpg" />
+                <source media="(min-width:1110px)" srcset="./assets/images/desktop/DesktopSlides-722x1048-1.jpg" />
                 <source media="(min-width:768px)" srcset="./assets/images/tablet/tabletSlides-722x1048-1.jpg" /><img
                     class="d-block w-100" src="./assets/images/mobile/mobileSlides-722x1048-1.jpg"
                     alt="Imagen de un aspersor de agua mojando el pasto" />
             </picture>
-            <div class="slideContent">
+            <div class="slideContent slideRight">
                 <div class="slideContent__box">
                     <span class="slideContent__box__span">GARANTIA TOTAL</span>
                     <h2 class="slideContent__box__title">Optimiza <strong>tu sistema de riego</strong></h2>
@@ -20,7 +20,7 @@
         </div>
         <div class="carousel-item">
             <picture class="carousel-item__img">
-                <source media="(min-width:1110px)" srcset="./assets/images/Desktop/DesktopSlides-722x1048-2.jpg" />
+                <source media="(min-width:1110px)" srcset="./assets/images/desktop/DesktopSlides-722x1048-2.jpg" />
                 <source media="(min-width:768px)" srcset="./assets/images/tablet/tabletSlides-722x1048-2.jpg" /><img
                     class="d-block w-100" src="./assets/images/mobile/mobileSlides-722x1048-2.jpg"
                     alt="Imagen de una regadera para baño funcionando" />
@@ -34,7 +34,7 @@
         </div> 
         <div class="carousel-item">
             <picture class="carousel-item__img">
-                <source media="(min-width:1110px)" srcset="./assets/images/Desktop/DesktopSlides-722x1048-3.jpg" />
+                <source media="(min-width:1110px)" srcset="./assets/images/desktop/DesktopSlides-722x1048-3.jpg" />
                 <source media="(min-width:768px)" srcset="./assets/images/tablet/tabletSlides-722x1048-3.jpg" /><img
                     class="d-block w-100" src="./assets/images/mobile/mobileSlides-722x1048-3.jpg"
                     alt="Imagen de un aspersor de agua mojando el pasto" />
@@ -64,10 +64,10 @@
         width: 22%;
         }
   </style>
-  <div class="ctaForm">
+  <div class="ctaForm slideUp">
     <?php include 'modalContacto.php';?>
   </div>
-  <div class="formContact">
+  <div class="formContact slideUp">
     <?php include 'formContact.php'; ?>
   </div>
 </div>

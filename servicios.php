@@ -11,10 +11,10 @@ include './components/header.php';
                 Nuestro mantenimiento garantiza eficiencia y durabilidad sin complicaciones.
             </p>
         </div>
-        <div class="ctaForm">
+        <div class="ctaForm slideUp">
             <?php include 'modalContacto.php';?>
         </div>
-        <div class="formContact">
+        <div class="formContact slideUp">
             <?php include 'formContact.php'; ?>
         </div>
             <style>
